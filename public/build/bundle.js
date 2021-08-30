@@ -596,7 +596,7 @@ var app = (function () {
     	let interestPaid;
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('App', slots, []);
-    	const formatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+    	const formatter = new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" });
     	let years = 15;
     	let loanAmount = 200000;
     	let interestRateInput = 200;
